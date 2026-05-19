@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-lg);
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+    height: auto;
+    width: 100%;
+}
+
+#__nuxt {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-lg);
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-size: var(--font-2xl);
+    font-family: var(--font-ephasis);
+    width: 100%;
+    text-align: center;
+}
+
+h2 {
+    font-size: var(--font-xl);
+    font-family: var(--font-ephasis);
+}

@@ -1,0 +1,89 @@
+:root {
+    /* colors */
+    --color-orange-50: oklch(0.967 0.016 46.63);
+    --color-orange-100: oklch(0.943 0.028 48.43);
+    --color-orange-200: oklch(0.875 0.066 49.41);
+    --color-orange-300: oklch(0.819 0.106 53.49);
+    --color-orange-400: oklch(0.754 0.156 59.69);
+    --color-orange-500: oklch(0.655 0.136 59.81);
+    --color-orange-600: oklch(0.551 0.115 59.15);
+    --color-orange-700: oklch(0.446 0.093 59.68);
+    --color-orange-800: oklch(0.34 0.07 60.04);
+    --color-orange-900: oklch(0.246 0.051 60.25);
+    --color-orange-950: oklch(0.191 0.04 58.84);
+    --color-stone-50: oklch(0.956 0.003 49.05);
+    --color-stone-100: oklch(0.914 0.005 67.79);
+    --color-stone-200: oklch(0.82 0.013 56.25);
+    --color-stone-300: oklch(0.735 0.015 57.53);
+    --color-stone-400: oklch(0.639 0.013 59.47);
+    --color-stone-500: oklch(0.553 0.012 58.09);
+    --color-stone-600: oklch(0.465 0.01 56.16);
+    --color-stone-700: oklch(0.389 0.009 67.57);
+    --color-stone-800: oklch(0.303 0.007 67.57);
+    --color-stone-900: oklch(0.224 0.005 67.57);
+    --color-stone-950: oklch(0.178 0.004 84.57);
+
+    /* spacings */
+    --base-spacing: .25rem;
+
+    --sm: var(--base-spacing);
+    --md: calc(var(--base-spacing) * 2);
+    --lg: calc(var(--base-spacing) * 4);
+    --xl: calc(var(--base-spacing) * 6);
+    --2xl: calc(var(--base-spacing) * 8);
+    --3xl: calc(var(--base-spacing) * 10);
+    --4xl: calc(var(--base-spacing) * 12);
+    --5xl: calc(var(--base-spacing) * 14);
+    --6xl: calc(var(--base-spacing) * 16);
+    --7xl: calc(var(--base-spacing) * 18);
+    --8xl: calc(var(--base-spacing) * 20);
+    --9xl: calc(var(--base-spacing) * 22);
+    --10xl: calc(var(--base-spacing) * 24);
+
+    --gap-sm: var(--sm);
+    --gap-md: var(--md);
+    --gap-lg: var(--lg);
+    --gap-xl: var(--xl);
+    --gap-2xl: var(--2xl);
+    ---3xl: var(--3xl);
+    --gap-4xl: var(--4xl);
+    --gap-5xl: var(--5xl);
+    --gap-6xl: var(--6xl);
+    --gap-7xl: var(--7xl);
+    --gap-8xl: var(--8xl);
+    --gap-9xl: var(--9xl);
+    --gap-10xl: var(--10xl);
+
+    /* fonts */
+    --font-primary: 'Faculty Glyphic', serif;
+    --font-ephasis: 'Limelight', sans-serif;
+
+    --font-sm: var(--sm);
+    --font-md: var(--md);
+    --font-lg: var(--lg);
+    --font-xl: var(--xl);
+    --font-2xl: var(--2xl);
+    --font-3xl: var(--3xl);
+    --font-4xl: var(--4xl);
+    --font-5xl: var(--5xl);
+    --font-6xl: var(--6xl);
+    --font-7xl: var(--7xl);
+    --font-8xl: var(--8xl);
+    --font-9xl: var(--9xl);
+    --font-10xl: var(--10xl);
+
+    /* paddings */
+    --padding-sm: var(--sm);
+    --padding-md: var(--md);
+    --padding-lg: var(--lg);
+    --padding-xl: var(--xl);
+    --padding-2xl: var(--2xl);
+    --padding-3xl: var(--3xl);
+    --padding-4xl: var(--4xl);
+    --padding-5xl: var(--5xl);
+    --padding-6xl: var(--6xl);
+    --padding-7xl: var(--7xl);
+    --padding-8xl: var(--8xl);
+    --padding-9xl: var(--9xl);
+    --padding-10xl: var(--10xl);
+}
