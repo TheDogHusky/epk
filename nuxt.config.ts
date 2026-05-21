@@ -53,4 +53,8 @@ export default defineNuxtConfig({
         translationDir: 'locales',
         meta: true
     },
+
+    ogImage: {
+        enabled: false
+    }
 });

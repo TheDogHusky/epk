@@ -5,7 +5,6 @@
 <template>
     <div class="header-image">
         <NuxtImg
-            placeholder
             src="/images/band_2025_music_festival_liffre.jpg"
         />
     </div>
