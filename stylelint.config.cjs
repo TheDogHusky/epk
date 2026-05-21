@@ -1,11 +1,10 @@
 module.exports = {
     rules: {
-        'font-family-no-missing-generic-family-keyword': [
+        "font-family-no-missing-generic-family-keyword": [
             true,
             {
-                ignoreFontFamilies: ['^var\\('],
+                ignoreFontFamilies: ["^var\\("],
             },
         ],
     },
-}
-
+};
