@@ -1449,7 +1449,7 @@
     unctx "^2.5.0"
     untyped "^2.0.0"
 
-"@nuxt/kit@^3.13.2", "@nuxt/kit@^3.19.3":
+"@nuxt/kit@^3.13.2", "@nuxt/kit@^3.16.2", "@nuxt/kit@^3.19.3":
   version "3.21.6"
   resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.21.6.tgz#65dae6ecd1f02bae5befce7d0031ff32cfe0364c"
   integrity sha512-5VOwxUcoM/z6w4c75hQrikHpY+TzjTLZQ+QnuO7KajyGx0IJBLVy1lw25oy79leF+GgyjJJO1cHfUfWeuEDCzA==
@@ -3046,7 +3046,7 @@
     postcss "^8.5.10"
     tailwindcss "4.3.0"
 
-"@tailwindcss/vite@^4.2.4":
+"@tailwindcss/vite@^4.0.9", "@tailwindcss/vite@^4.2.4":
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/@tailwindcss/vite/-/vite-4.3.0.tgz#b2bbc069a4c700ea7aef5ee30416d84b7652e136"
   integrity sha512-t6J3OrB5Fc0ExuhohouH0fWUGMYL6PTLhW+E7zIk/pdbnJARZDCwjBznFnkh5ynRnIRSI4YjtTH0t6USjJISrw==
@@ -3920,6 +3920,16 @@
     "@vueuse/shared" "10.11.1"
     vue-demi ">=0.14.8"
 
+"@vueuse/core@^12.7.0":
+  version "12.8.2"
+  resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-12.8.2.tgz#007c6dd29a7d1f6933e916e7a2f8ef3c3f968eaa"
+  integrity sha512-HbvCmZdzAu3VGi/pWYm5Ut+Kd9mn1ZHnn4L5G8kOQTPs/IwIAmJoBrmYk2ckLArgMXZj0AW3n5CAejLUO+PhdQ==
+  dependencies:
+    "@types/web-bluetooth" "^0.0.21"
+    "@vueuse/metadata" "12.8.2"
+    "@vueuse/shared" "12.8.2"
+    vue "^3.5.13"
+
 "@vueuse/integrations@^14.2.1":
   version "14.3.0"
   resolved "https://registry.yarnpkg.com/@vueuse/integrations/-/integrations-14.3.0.tgz#06ce0431973a0606cc6a69d173f19880652860a6"
@@ -3932,6 +3942,11 @@
   version "10.11.1"
   resolved "https://registry.yarnpkg.com/@vueuse/metadata/-/metadata-10.11.1.tgz#209db7bb5915aa172a87510b6de2ca01cadbd2a7"
   integrity sha512-IGa5FXd003Ug1qAZmyE8wF3sJ81xGLSqTqtQ6jaVfkeZ4i5kS2mwQF61yhVqojRnenVew5PldLyRgvdl4YYuSw==
+
+"@vueuse/metadata@12.8.2":
+  version "12.8.2"
+  resolved "https://registry.yarnpkg.com/@vueuse/metadata/-/metadata-12.8.2.tgz#6cb3a4e97cdcf528329eebc1bda73cd7f64318d3"
+  integrity sha512-rAyLGEuoBJ/Il5AmFHiziCPdQzRt88VxR+Y/A/QhJ1EWtWqPBBAxTAFaSkviwEuOEZNtW8pvkPgoCZQ+HxqW1A==
 
 "@vueuse/metadata@14.3.0":
   version "14.3.0"
@@ -3954,6 +3969,13 @@
   integrity sha512-LHpC8711VFZlDaYUXEBbFBCQ7GS3dVU9mjOhhMhXP6txTV4EhYQg/KGnQuvt/sPAtoUKq7VVUnL6mVtFoL42sA==
   dependencies:
     vue-demi ">=0.14.8"
+
+"@vueuse/shared@12.8.2":
+  version "12.8.2"
+  resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-12.8.2.tgz#b9e4611d0603629c8e151f982459da394e22f930"
+  integrity sha512-dznP38YzxZoNloI0qpEfpkms8knDtaoQ6Y/sfS0L7Yki4zh40LFHEhur0odJC6xTHG5dxWVPiUWBXn+wCG2s5w==
+  dependencies:
+    vue "^3.5.13"
 
 "@vueuse/shared@14.3.0", "@vueuse/shared@^14.1.0", "@vueuse/shared@^14.2.1":
   version "14.3.0"
@@ -6832,6 +6854,14 @@ nuxt-link-checker@^5.0.8:
     ultrahtml "^1.6.0"
     unstorage "^1.17.5"
 
+nuxt-music-flow@1.1.8:
+  version "1.1.8"
+  resolved "https://registry.yarnpkg.com/nuxt-music-flow/-/nuxt-music-flow-1.1.8.tgz#8c14101c6aabc915fe12dee3af775eedfd774e45"
+  integrity sha512-qM++0QccIee9etriCu9ZknNo+AUiGqr/h5uuTm1OQGXj99k4hY8HRvDM6XdJOkPybTM1K0lBFnIX1+7m1rtOcw==
+  dependencies:
+    "@nuxt/kit" "^3.16.2"
+    vue-music-flow "2.0.1"
+
 nuxt-og-image@^6.3.9:
   version "6.5.1"
   resolved "https://registry.yarnpkg.com/nuxt-og-image/-/nuxt-og-image-6.5.1.tgz#70c8481da29fcf95eac4ee1d019f81e22de81735"
@@ -8619,7 +8649,7 @@ tailwind-variants@^3.2.2:
   resolved "https://registry.yarnpkg.com/tailwind-variants/-/tailwind-variants-3.2.2.tgz#3ac8ccc735cae8b6f416330070f5f7437a77a0f3"
   integrity sha512-Mi4kHeMTLvKlM98XPnK+7HoBPmf4gygdFmqQPaDivc3DpYS6aIY6KiG/PgThrGvii5YZJqRsPz0aPyhoFzmZgg==
 
-tailwindcss@4.3.0, tailwindcss@^4.2.4:
+tailwindcss@4.3.0, tailwindcss@^4.0.9, tailwindcss@^4.2.4:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-4.3.0.tgz#0a874e044a859cf6de413f3a59e76a9bedf05264"
   integrity sha512-y6nxMGB1nMW9R6k96e5gdIFzcfL/gTJRNaqGes1YvkLnPVXzWgbqFF2yLC0T8G774n24cx3Pe8XrKoniCOAH+Q==
@@ -9240,6 +9270,17 @@ vue-eslint-parser@^10.4.0:
     esquery "^1.6.0"
     semver "^7.6.3"
 
+vue-music-flow@2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/vue-music-flow/-/vue-music-flow-2.0.1.tgz#5b218873ba9131131ea9d546fcf7d20f12a7618c"
+  integrity sha512-Xc/oFFacBHdSDc6zgFNaSex5BgvqijD0L3RPEP7pXqdmK6bvW8755jPmSDGAZVseY9otZ/dSL6v9aCHQdRFTWg==
+  dependencies:
+    "@tailwindcss/vite" "^4.0.9"
+    "@vueuse/core" "^12.7.0"
+    tailwindcss "^4.0.9"
+    vue "^3.5.13"
+    wavesurfer.js "^7.9.1"
+
 vue-router@^5.0.7:
   version "5.0.7"
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-5.0.7.tgz#1b4ce7d8816eae9b360b0094b3b2e0b432b897c0"
@@ -9263,7 +9304,7 @@ vue-router@^5.0.7:
     unplugin-utils "^0.3.1"
     yaml "^2.8.2"
 
-vue@^3.4.5, vue@^3.5.34:
+vue@^3.4.5, vue@^3.5.13, vue@^3.5.34:
   version "3.5.34"
   resolved "https://registry.yarnpkg.com/vue/-/vue-3.5.34.tgz#3b256eb30964416af6406a795fcfd7a5773a93c5"
   integrity sha512-WdLBG9gm02OgJIG9axd5Hpx0TFLdzVgfG2evFFu8Rur5O/IoGc5cMjnjh3tPL6GnRGsYvUhBSKVPYVcxRKpMCA==
@@ -9278,6 +9319,11 @@ w3c-keyname@^2.2.0:
   version "2.2.8"
   resolved "https://registry.yarnpkg.com/w3c-keyname/-/w3c-keyname-2.2.8.tgz#7b17c8c6883d4e8b86ac8aba79d39e880f8869c5"
   integrity sha512-dpojBhNsCNN7T82Tm7k26A6G9ML3NkhDsnw9n/eoxSRlVBB4CEtIQ/KTCLI2Fwf3ataSXRhYFkQi3SlnFwPvPQ==
+
+wavesurfer.js@^7.9.1:
+  version "7.12.7"
+  resolved "https://registry.yarnpkg.com/wavesurfer.js/-/wavesurfer.js-7.12.7.tgz#31f66428a11013d49817a060481d5f82f58ea1da"
+  integrity sha512-TIe7hB6OCZysNOZ2cn2NR8Qpko22POWel6rauNcqOammFoH65NYQUM35unNLLMIlUMVYvjJ6w/TTl/G/m+w0nA==
 
 web-vitals@^5.2.0:
   version "5.2.0"

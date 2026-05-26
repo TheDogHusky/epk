@@ -2,5 +2,53 @@
     "nuxtSiteConfig": {
         "name": "Adam Billard's EPK",
         "description": "Adam Billard is a young musician that started his career at 14 years old by writing his first song \"I Don't Wanna Suffer Again\" after a hard heartbreak with one of his best friends. He then continued learning guitar and writing songs to share everyone his thoughts and how he likes music."
+    },
+    "job": "Singer-songwriter",
+    "sections": {
+        "about": {
+            "title": "About",
+            "content": "I originate from a city in Brittany, France. I started making music at 14 years old in a Pop style. From then my music style has enriched with influences from Rock, Pop-Rock and (you would have guessed it) Pop.<br>My music is a reflection of my thoughts and feelings, and I strive to create songs that resonate with listeners on a deep level. I am passionate about crafting melodies and lyrics that evoke emotions and tell stories, even ones I haven't lived."
+        },
+        "press": {
+            "title": "Press Photos",
+            "images": [
+                {
+                    "src": "/press/1.jpg",
+                    "alt": "Adam Billard Press Photo 1"
+                },
+                {
+                    "src": "/press/2.jpg",
+                    "alt": "Adam Billard Press Photo 2"
+                },
+                {
+                    "src": "/press/3.jpg",
+                    "alt": "Adam Billard Press Photo 3"
+                }
+            ]
+        },
+        "music": {
+            "title": "Music"
+        },
+        "shows": {
+            "title": "Shows",
+            "items": {
+                "simone-2026": {
+                    "title": "Live at the Simone-Veil High School",
+                    "description": "I performed a live show with a few friends showcasing a few covers and original songs. Audience was really invested, clapping, participating, singing and dancing."
+                },
+                "music-festival-2025": {
+                    "title": "Music Festival in Liffré",
+                    "description": "I had the opportunity to perform at a local music festival in Liffré with my band. We played a mix of original songs and rock covers, alongside some classics the people could sing to.<br>The crowd was amazing, singing along to our songs and dancing to the music. It was an unforgettable experience that fueled my passion for performing live."
+                },
+                "music-festival-2026-liffre": {
+                    "title": "Music Festival in Liffré",
+                    "description": "I had the opportunity to perform at a local music festival in Liffré again with my band, this time with all the members we needed. We played a few originals but mostly covers while keeping the music setlist from Pop to Rock, and the crowd loved it. TODO WRITE"
+                },
+                "music-festival-2026-erce": {
+                    "title": "Music Festival in Ercé-près-Liffré",
+                    "description": "I had the opportunity to perform at a local music festival in Ercé-près-Liffré with my band. TODO"
+                }
+            }
+        }
     }
 }

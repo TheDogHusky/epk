@@ -1,9 +1,9 @@
 <script setup lang="ts">
-
+const { $t } = useI18n();
 </script>
 
 <template>
-    <div class="w-full">
+    <PageContainer>
         <h1>Adam Billard</h1>
         <PlacedSection
             layout="left"
@@ -11,5 +11,5 @@
             title="A propos"
             description="lorem lorem"
         />
-    </div>
+    </PageContainer>
 </template>

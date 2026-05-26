@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-lg);
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+    height: auto;
+    width: 100%;
+}
+
+#__nuxt {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-lg);
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}

@@ -13,6 +13,6 @@
     align-items: flex-start;
     padding: var(--padding-lg);
     background-color: var(--color-orange-100);
-    max-width: 65%;
+    max-width: 50%;
 }
 </style>

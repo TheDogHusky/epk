@@ -2,14 +2,15 @@
 export default defineNuxtConfig({
 
     modules: [
-        "@nuxt/eslint",
-        "@nuxt/fonts",
-        "@nuxt/hints",
-        "@nuxt/icon",
-        "@nuxt/image",
-        "@nuxtjs/plausible",
-        "@nuxtjs/seo",
-        "nuxt-i18n-micro",
+      "@nuxt/eslint",
+      "@nuxt/fonts",
+      "@nuxt/hints",
+      "nuxt-i18n-micro",
+      "@nuxt/icon",
+      "@nuxt/image",
+      "@nuxtjs/plausible",
+      "@nuxtjs/seo",
+      "nuxt-music-flow",
     ],
     devtools: { enabled: true },
 
@@ -17,7 +18,9 @@ export default defineNuxtConfig({
 
     site: {
         url: "https://epk.classydev.fr",
-    }, compatibilityDate: "2025-07-15",
+    },
+
+    compatibilityDate: "2025-07-15",
 
     vite: {
         optimizeDeps: {
@@ -47,6 +50,7 @@ export default defineNuxtConfig({
         defaultLocale: "en",
         translationDir: "locales",
         meta: true,
+        localeCookie: 'user-locale'
     },
 
     image: {
