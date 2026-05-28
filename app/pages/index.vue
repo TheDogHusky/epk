@@ -11,5 +11,6 @@ const { $t } = useI18n();
             title="A propos"
             description="lorem lorem"
         />
+        <PressPhotos />
     </PageContainer>
 </template>

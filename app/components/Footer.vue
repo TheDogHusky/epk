@@ -10,3 +10,13 @@ const copyrightYear = new Date().getFullYear();
         <Socials placement="footer" />
     </footer>
 </template>
+
+<style scoped>
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+</style>

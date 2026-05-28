@@ -22,7 +22,7 @@ const sectionClasses = computed(() => {
             />
         </div>
         <div class="page-section-content">
-            <h3>{{ props.title }}</h3>
+            <h2>{{ props.title }}</h2>
             <p v-if="props.description">
                 {{ props.description }}
             </p>

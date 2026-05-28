@@ -2,10 +2,10 @@
 const { $t } = useI18n();
 
 useSeoMeta({
-    title: $t("index.title"),
-    description: $t("index.description"),
-    ogTitle: $t("index.ogTitle"),
-    ogDescription: $t("index.ogDescription"),
+    title: () => $t("nuxtSiteConfig.name") as string,
+    description: () => $t("nuxtSiteConfig.description") as string,
+    ogTitle: () => $t("nuxtSiteConfig.name") as string,
+    ogDescription: () => $t("nuxtSiteConfig.description") as string,
     ogImage: "/images/adam_selfie.jpg"
 });
 

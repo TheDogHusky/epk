@@ -25,10 +25,12 @@ export default defineNuxtConfig({
     vite: {
         optimizeDeps: {
             include: [
-                "@plausible-analytics/tracker",
-                "@vue/devtools-core",
-                "@vue/devtools-kit",
-            ],
+                '@plausible-analytics/tracker',
+                '@unhead/schema-org/vue',
+                '@vue/devtools-core',
+                '@vue/devtools-kit',
+                'vue-photo-album',
+            ]
         },
     },
 
