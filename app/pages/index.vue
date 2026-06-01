@@ -1,4 +1,7 @@
 <script setup lang="ts">
+import ContactSection from "~/components/ContactSection.vue";
+import LinkSection from "~/components/LinkSection.vue";
+
 const { $t } = useI18n();
 </script>
 
@@ -12,5 +15,9 @@ const { $t } = useI18n();
             description="lorem lorem"
         />
         <PressPhotos />
+        <MusicSection />
+        <LiveSection />
+        <ContactSection />
+        <LinkSection />
     </PageContainer>
 </template>

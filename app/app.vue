@@ -38,6 +38,11 @@ useSchemaOrg([
 
 <template>
     <NuxtLayout>
+        <MusicFlow
+            :options="{
+                autoplay: true
+            }"
+        />
         <NuxtLoadingIndicator color="var(--color-orange-400)" />
         <NuxtPage />
     </NuxtLayout>

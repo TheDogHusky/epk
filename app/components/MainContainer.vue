@@ -13,18 +13,18 @@
     align-items: flex-start;
     padding: var(--padding-lg);
     background-color: var(--color-orange-100);
-    width: 50%;
+    width: 1200px;
 }
 
 @media screen and (max-width: 1260px) {
     .main-container {
-        width: 70%;
+        width: 900px;
     }
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 900px) {
     .main-container {
-        width: 80%;
+        width: 600px;
     }
 }
 

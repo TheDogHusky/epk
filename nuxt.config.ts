@@ -11,6 +11,7 @@ export default defineNuxtConfig({
       "@nuxtjs/plausible",
       "@nuxtjs/seo",
       "nuxt-music-flow",
+      "@nuxt/scripts",
     ],
     devtools: { enabled: true },
 

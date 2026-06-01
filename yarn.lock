@@ -857,6 +857,13 @@
   resolved "https://registry.yarnpkg.com/@i18n-micro/types/-/types-1.2.1.tgz#159e411ccb0639385654998e75ea21944c56ee04"
   integrity sha512-sFThjda+lpftup4Uj8jQeVqe+dO9II3NYoelLT6Eq03oca7ZquP90CXyFnolpN9qrWHJA1DVYiU3YmFGgeIksA==
 
+"@iconify-json/lucide@^1.2.111":
+  version "1.2.111"
+  resolved "https://registry.yarnpkg.com/@iconify-json/lucide/-/lucide-1.2.111.tgz#864eb142e77609402d583e27830293a27d5ef404"
+  integrity sha512-S6oXom2YOKuXFxWofhHa2oq++Z3WeZ78dRFDA7aEEJqyNCJlQd1UGAfN8u2gD2NzvYotmm+j5kH678viWfZbGQ==
+  dependencies:
+    "@iconify/types" "*"
+
 "@iconify/collections@^1.0.679":
   version "1.0.686"
   resolved "https://registry.yarnpkg.com/@iconify/collections/-/collections-1.0.686.tgz#80622577cde200460599de6b191a912184f6367a"
@@ -1519,6 +1526,32 @@
     pathe "^2.0.3"
     pkg-types "^2.3.1"
     std-env "^4.1.0"
+
+"@nuxt/scripts@1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/scripts/-/scripts-1.1.1.tgz#411da08f680fa87d2704a37ba0be6aaa1473530b"
+  integrity sha512-vTd8b1hm0LUwkxLyArky3K8JyVVYcF0mdeKw4CDYRwxLRNpw1M0rCxhphCHS/xCMQZILwKnxsTHZzJMA5EUBwA==
+  dependencies:
+    "@nuxt/devtools-kit" "^3.2.4"
+    "@vueuse/core" "^14.3.0"
+    "@vueuse/shared" "^14.3.0"
+    consola "^3.4.2"
+    defu "^6.1.7"
+    h3 "^1.15.11"
+    magic-string "^0.30.21"
+    ofetch "^1.5.1"
+    ohash "^2.0.11"
+    oxc-parser "^0.132.0"
+    oxc-walker "^1.0.0"
+    pathe "^2.0.3"
+    pkg-types "^2.3.1"
+    sirv "^3.0.2"
+    std-env "^4.1.0"
+    ufo "^1.6.4"
+    ultrahtml "^1.6.0"
+    unplugin "^3.0.0"
+    unstorage "^1.17.5"
+    valibot "^1.4.0"
 
 "@nuxt/telemetry@^2.8.0":
   version "2.8.0"
@@ -3981,7 +4014,7 @@
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.5.35.tgz#192eb3d720c40715db79313454c4937432a4e86d"
   integrity sha512-zSbjL7gRXwks2ZQLRGCajBtBXEOXW9Ddhn/HvSdrGkE2dqGnumzW8XtusRrxrE9LvqtiqDXQ+A60Hp6mvdYxfA==
 
-"@vueuse/core@14.3.0", "@vueuse/core@^14.1.0", "@vueuse/core@^14.2.1":
+"@vueuse/core@14.3.0", "@vueuse/core@^14.1.0", "@vueuse/core@^14.2.1", "@vueuse/core@^14.3.0":
   version "14.3.0"
   resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-14.3.0.tgz#66c92f9ad7ee989e4a8fd23ec368e55429ea42b2"
   integrity sha512-aHfz47g0ZhMtTVHmIzMVpJy8ePhhOy68GY5bv110+5DVtZ+W7BsOx+m61UNQqfrWyPztIHIanWa3E2tib3NFIw==
@@ -4057,7 +4090,7 @@
   dependencies:
     vue "^3.5.13"
 
-"@vueuse/shared@14.3.0", "@vueuse/shared@^14.1.0", "@vueuse/shared@^14.2.1":
+"@vueuse/shared@14.3.0", "@vueuse/shared@^14.1.0", "@vueuse/shared@^14.2.1", "@vueuse/shared@^14.3.0":
   version "14.3.0"
   resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-14.3.0.tgz#a3e7e6391f9ed7f363cbb28c32c4a278efaacbd0"
   integrity sha512-bZpge9eSXwa4ToSiqJ7j6KRwhAsneMFoSz3LMWKQDkqimm3D/tbFlrklrs/IOqC8tEcYmXQZJ6N0UrjhBirVCg==

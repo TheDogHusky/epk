@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { PhotoAlbum } from 'vue-photo-album';
+import { PhotoAlbum, type PhotoClickPayload } from 'vue-photo-album';
 
 const photos = [{
     src: "/images/band_2025_music_festival_liffre_2.jpg",
@@ -26,17 +26,41 @@ const photos = [{
     width: 3456,
     height: 5184
 }];
+
+const onPhotoClick = (payload: PhotoClickPayload) => {
+    open(payload.photo.src);
+};
 </script>
 
 <template>
-    <ClientOnly>
-        <div class="press-photos">
+    <section class="press-photos">
+        <div class="press-photos-texts">
             <h2>Press Photos</h2>
-            <PhotoAlbum :photos="photos" layout="rows" />
+            <p class="italic info-p">Click on any photo to open it.</p>
         </div>
-    </ClientOnly>
+        <PhotoAlbum :photos="photos" layout="rows" :spacing="16" :row-constraints="{ maxPhotos: 3 }" @click="onPhotoClick" />
+    </section>
 </template>
 
 <style scoped>
+.press-photos {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-lg);
+}
 
+.press-photos-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+:deep(.photo-album__photo) {
+    transform: none;
+    transition: transform 0.25s ease-in-out;
+}
+
+:deep(.photo-album__photo:hover) {
+    transform: scale(1.01);
+}
 </style>
