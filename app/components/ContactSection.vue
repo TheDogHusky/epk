@@ -1,13 +1,19 @@
 <script setup lang="ts">
-
+const { $t } = useI18n();
 </script>
 
 <template>
 <section class="contact-section">
-    <h2>Contact</h2>
-    <p>
-        You can contact me by <a class="link" target="_blank" rel="external" href="mailto:contact@classydev.fr">email</a> or on my <a class="link" target="_blank" rel="external" href="https://classydev.fr/en/#contact">main website</a>.
-    </p>
+    <h2>{{ $t("sections.contact.title") }}</h2>
+    <i18n-t keypath="sections.contact.content">
+        <template #email>
+            <a class="link" target="_blank" rel="external" href="mailto:contact@classydev.fr">{{ $t("sections.contact.email") }}</a>
+        </template>
+
+        <template #mainWebsite>
+            <a class="link" target="_blank" rel="external" href="https://classydev.fr/en/#contact">{{ $t("sections.contact.mainWebsite") }}</a>
+        </template>
+    </i18n-t>
 </section>
 </template>
 

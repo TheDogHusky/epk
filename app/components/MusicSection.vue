@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import type { TMusicFlow } from "vue-music-flow";
 
+const { $t } = useI18n();
+
 const makeSongData = (name: string, code: string, id: number) => {
     return {
         id,
@@ -27,7 +29,7 @@ const { onPlayAsPlaylist, isTrackPlaying } = useMusicFlow();
 
 <template>
     <section class="music-section">
-        <h2>Music</h2>
+        <h2>{{ $t("sections.music.title") }}</h2>
         <ul class="musics">
             <li class="music" v-for="track in tracks" :key="track.id">
                 <div class="music-info">

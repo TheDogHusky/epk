@@ -857,6 +857,13 @@
   resolved "https://registry.yarnpkg.com/@i18n-micro/types/-/types-1.2.1.tgz#159e411ccb0639385654998e75ea21944c56ee04"
   integrity sha512-sFThjda+lpftup4Uj8jQeVqe+dO9II3NYoelLT6Eq03oca7ZquP90CXyFnolpN9qrWHJA1DVYiU3YmFGgeIksA==
 
+"@iconify-json/flag@^1.2.12":
+  version "1.2.12"
+  resolved "https://registry.yarnpkg.com/@iconify-json/flag/-/flag-1.2.12.tgz#8d45c124d843050ff746e5d861546bf0b58f5727"
+  integrity sha512-B5zphOSTn54UX9v1sKsR1atuhyuXExiAkjuLQA8aeDcB68+P6oiStEDeEEVkbHgwvFvklPM2G7GhqFw6VMnXhw==
+  dependencies:
+    "@iconify/types" "*"
+
 "@iconify-json/lucide@^1.2.111":
   version "1.2.111"
   resolved "https://registry.yarnpkg.com/@iconify-json/lucide/-/lucide-1.2.111.tgz#864eb142e77609402d583e27830293a27d5ef404"

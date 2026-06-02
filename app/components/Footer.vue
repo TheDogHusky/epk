@@ -1,12 +1,16 @@
 <script setup lang="ts">
 const copyrightYear = new Date().getFullYear();
+const { $t } = useI18n();
 </script>
 
 <template>
     <footer>
-        <p>
-            &copy; {{ copyrightYear }} Adam Billard - All right reserved
-        </p>
+        <div class="left">
+            <p>
+                {{ $t("copyright", { date: copyrightYear }) }}
+            </p>
+            <LanguageSelector placement="footer" />
+        </div>
         <Socials placement="footer" />
     </footer>
 </template>
@@ -18,5 +22,13 @@ footer {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    gap: var(--gap-md);
+    justify-content: center;
+    align-items: center;
 }
 </style>

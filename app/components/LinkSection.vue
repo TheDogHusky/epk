@@ -1,21 +1,21 @@
 <script setup lang="ts">
-
+const { $t } = useI18n();
 </script>
 
 <template>
     <section class="links-section">
-        <h2>Liens Utiles</h2>
+        <h2>{{ $t("sections.links.title") }}</h2>
         <ul class="links">
             <li>
                 <a class="link" target="_blank" rel="external" href="/files/technical-sheet.pdf">
                     <Icon name="i-lucide-file-down" />
-                    Technical Sheet
+                    {{ $t("sections.links.sheet") }}
                 </a>
             </li>
             <li>
                 <a class="link" target="_blank" rel="external" href="https://music.classydev.fr">
                     <Icon name="i-lucide-arrow-up-right" />
-                    Portfolio
+                    {{ $t("sections.links.portfolio") }}
                 </a>
             </li>
         </ul>

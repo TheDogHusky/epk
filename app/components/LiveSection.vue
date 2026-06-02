@@ -4,7 +4,7 @@
 
 <template>
     <section class="live-section">
-        <h2>Live Video</h2>
+        <h2>{{ $t("sections.live.title") }}</h2>
         <ScriptYouTubePlayer video-id="SVLUpN5woic" />
     </section>
 </template>

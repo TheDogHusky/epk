@@ -3,5 +3,68 @@
         "name": "Adam Billard's EPK",
         "description": "Adam Billard est un jeune musicien qui a débuté sa carrière à ses 14 ans en écrivant sa chanson \"I Don't Wanna Suffer Again\" après une histoire d'amour avec une de ses meilleures amies. Il a ensuite continué à apprendre la guitare et écrire des chansons pour partager au monde ses pensées et comment il aime la musique."
     },
-    "job": "Auteur-compositeur-interprète"
+    "job": "Auteur-compositeur-interprète",
+    "copyright": "© {date} Adam Billard. Tous droits réservés.",
+    "sections": {
+        "about": {
+            "title": "A propos",
+            "content": "Je suis originaire d'une ville de Bretagne, en France. J'ai commencé à faire de la musique à 14 ans dans la musique populaire. Depuis, mon style de musique s'est enrichi avec des influences du Rock, de la Pop-Rock et (vous l'aurez deviné) de la Pop.\n\nMa musique est une réflexion de mes pensées et sentiments, et je m'efforce de créer des chansons qui touchent profondément les auditeurs. Je me passionne pour la création de mélodies et de paroles qui suscitent des émotions et racontent des histoires, même celles que je n'ai pas vécues."
+        },
+        "press": {
+            "title": "Photos de Presse",
+            "tip": "Cliquez sur n'importe quelle photo pour l'ouvrir.",
+            "images": [
+                {
+                    "src": "/press/1.jpg",
+                    "alt": "Adam Billard Press Photo 1"
+                },
+                {
+                    "src": "/press/2.jpg",
+                    "alt": "Adam Billard Press Photo 2"
+                },
+                {
+                    "src": "/press/3.jpg",
+                    "alt": "Adam Billard Press Photo 3"
+                }
+            ]
+        },
+        "music": {
+            "title": "Musique"
+        },
+        "live": {
+            "title": "Vidéos en Live"
+        },
+        "contact": {
+            "title": "Contact",
+            "content": "vous pouvez me contacter par {email} ou sur mon {mainWebsite}.",
+            "mainWebsite": "site principal",
+            "email": "email"
+        },
+        "links": {
+            "title": "Liens Utiles",
+            "sheet": "Fiche Technique",
+            "portfolio": "Site Musical"
+        },
+        "shows": {
+            "title": "Concerts",
+            "items": {
+                "simone-2026": {
+                    "title": "Concert au Lycée Simone-Veil",
+                    "description": "J'ai donné un concert avec quelques amis, au cours duquel nous avons interprété des reprises et des compositions originales. Le public était vraiment à fond : il applaudissait, participait, chantait et dansait."
+                },
+                "music-festival-2025": {
+                    "title": "Fête de la Musique 2025 de Liffré",
+                    "description": "J'ai eu l'occasion de me produire avec mon groupe lors d'un festival de musique local à Liffré. Nous avons joué un mélange de compositions originales et de reprises rock, ainsi que quelques grands classiques que le public pouvait chanter avec nous.\n\nLe public était formidable : il chantait avec nous et dansait au rythme de la musique. Ce fut une expérience inoubliable qui a ravivé ma passion pour la scène."
+                },
+                "music-festival-2026-liffre": {
+                    "title": "Fête de la Musique 2026 de Liffré",
+                    "description": "I had the opportunity to perform at a local music festival in Liffré again with my band, this time with all the members we needed. We played a few originals but mostly covers while keeping the music setlist from Pop to Rock, and the crowd loved it. TODO WRITE"
+                },
+                "music-festival-2026-erce": {
+                    "title": "Fête de la Musique 2026 à Ercé-près-Liffré",
+                    "description": "I had the opportunity to perform at a local music festival in Ercé-près-Liffré with my band. TODO"
+                }
+            }
+        }
+    }
 }

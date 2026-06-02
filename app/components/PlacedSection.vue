@@ -1,9 +1,11 @@
 <script setup lang="ts">
+import type { CleanTranslation } from "@i18n-micro/types";
+
 const props = defineProps<{
     layout: "left" | "right";
     image: string;
-    title: string;
-    description: string;
+    title: string | CleanTranslation;
+    description: string | CleanTranslation;
 }>();
 
 const sectionClasses = computed(() => {
@@ -46,7 +48,7 @@ const sectionClasses = computed(() => {
 }
 
 .page-section-image {
-    height: 16rem;
+    width: 30rem;
 }
 
 .page-section-image > img {
@@ -66,6 +68,10 @@ const sectionClasses = computed(() => {
     justify-content: left;
     align-items: flex-start;
     gap: var(--gap-lg);
+}
+
+.page-section-content > p {
+    white-space: pre-line;
 }
 
 .page-section.right .page-section-content {

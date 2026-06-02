@@ -1,18 +1,16 @@
 <script setup lang="ts">
-import ContactSection from "~/components/ContactSection.vue";
-import LinkSection from "~/components/LinkSection.vue";
-
 const { $t } = useI18n();
 </script>
 
 <template>
     <PageContainer>
+        <LanguageSelector placement="header" />
         <h1>Adam Billard</h1>
         <PlacedSection
             layout="left"
             image="/images/adam_selfie.jpg"
-            title="A propos"
-            description="lorem lorem"
+            :title="$t('sections.about.title')"
+            :description="$t('sections.about.content')"
         />
         <PressPhotos />
         <MusicSection />
