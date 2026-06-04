@@ -12,6 +12,7 @@ export default defineNuxtConfig({
       "@nuxtjs/seo",
       "nuxt-music-flow",
       "@nuxt/scripts",
+      "@vueuse/nuxt",
     ],
     devtools: { enabled: true },
 
@@ -53,7 +54,8 @@ export default defineNuxtConfig({
         defaultLocale: "en",
         translationDir: "locales",
         meta: true,
-        localeCookie: 'user-locale'
+        localeCookie: 'user-locale',
+        disablePageLocales: true
     },
 
     image: {

@@ -77,4 +77,23 @@ const sectionClasses = computed(() => {
 .page-section.right .page-section-content {
     justify-content: flex-end;
 }
+
+@media screen and (max-width: 880px) {
+    .page-section {
+        flex-direction: column;
+    }
+
+    .page-section.right .page-section-content {
+        justify-content: left;
+    }
+
+    .page-section.right {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .page-section-image {
+        width: 12rem;
+    }
+}
 </style>

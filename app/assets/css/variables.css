@@ -22,6 +22,17 @@
     --color-stone-800: oklch(0.303 0.007 67.57);
     --color-stone-900: oklch(0.224 0.005 67.57);
     --color-stone-950: oklch(0.178 0.004 84.57);
+    --color-blue-50: oklch(0.973 0.013 233.68);
+    --color-blue-100: oklch(0.947 0.027 233.93);
+    --color-blue-200: oklch(0.884 0.062 231.46);
+    --color-blue-300: oklch(0.784 0.128 225.85);
+    --color-blue-400: oklch(0.69 0.114 226.34);
+    --color-blue-500: oklch(0.597 0.098 225.98);
+    --color-blue-600: oklch(0.511 0.084 225.93);
+    --color-blue-700: oklch(0.418 0.068 225.95);
+    --color-blue-800: oklch(0.323 0.053 225.51);
+    --color-blue-900: oklch(0.228 0.038 226.13);
+    --color-blue-950: oklch(0.175 0.029 225.09);
 
     /* spacings */
     --base-spacing: .25rem;

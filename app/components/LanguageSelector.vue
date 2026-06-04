@@ -1,8 +1,10 @@
 <script setup lang="ts">
-const { $switchLocale } = useI18n();
+const { $switchLocale, getLocale } = useI18n();
 const props = defineProps<{
     placement: "header" | "footer";
 }>();
+
+const locale = computed(() => getLocale());
 
 const classes = computed(() => {
     return "language-selector " + props.placement;
@@ -11,10 +13,10 @@ const classes = computed(() => {
 
 <template>
     <div :class="classes">
-        <button type="button" class="language" @click="() => $switchLocale('en')">
+        <button v-if="locale === 'fr'" type="button" class="language" @click="() => $switchLocale('en')">
             <Icon name="i-flag-us-4x3" />
         </button>
-        <button type="button" class="language" @click="() => $switchLocale('fr')">
+        <button v-else type="button" class="language" @click="() => $switchLocale('fr')">
             <Icon name="i-flag-fr-4x3" />
         </button>
     </div>

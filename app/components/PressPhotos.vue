@@ -2,6 +2,8 @@
 import { PhotoAlbum, type PhotoClickPayload } from 'vue-photo-album';
 
 const { $t } = useI18n();
+const { width } = useWindowSize();
+const rows = computed(() => width.value < 728 ? 2 : 3);
 
 const photos = [{
     src: "/images/band_2025_music_festival_liffre_2.jpg",
@@ -40,7 +42,7 @@ const onPhotoClick = (payload: PhotoClickPayload) => {
             <h2>{{ $t("sections.press.title") }}</h2>
             <p class="italic info-p">{{ $t("sections.press.tip") }}</p>
         </div>
-        <PhotoAlbum :photos="photos" layout="rows" :spacing="16" :row-constraints="{ maxPhotos: 3 }" @click="onPhotoClick" />
+        <PhotoAlbum :photos="photos" layout="rows" :spacing="16" :row-constraints="{ maxPhotos: rows }" @click="onPhotoClick" />
     </section>
 </template>
 

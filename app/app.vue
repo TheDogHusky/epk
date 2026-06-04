@@ -9,6 +9,11 @@ useSeoMeta({
     ogImage: "/images/adam_selfie.jpg"
 });
 
+useHead({
+    // disable nuxt seo titles, as it is a mono page site
+    titleTemplate: '%siteName'
+});
+
 useSchemaOrg([
     definePerson({
         name: 'Adam Billard',

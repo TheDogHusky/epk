@@ -1,13 +1,16 @@
 body {
     display: flex;
     flex-direction: column;
-    gap: var(--gap-lg);
     justify-content: center;
     align-items: center;
     min-height: 100dvh;
     height: auto;
     width: 100%;
     font-family: var(--font-primary);
+    background-image: url("/bg2.svg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #__nuxt {
