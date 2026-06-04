@@ -21,7 +21,7 @@ const photos = [{
     src: "/images/band_2025_music_festival_liffre_5.jpg",
     width: 3456,
     height: 5184
-}, {
+}/*, {
     src: "/images/press/5.jpg",
     width: 3456,
     height: 5184
@@ -29,7 +29,7 @@ const photos = [{
     src: "/images/press/6.jpg",
     width: 3456,
     height: 5184
-}];
+}*/];
 
 const onPhotoClick = (payload: PhotoClickPayload) => {
     open(payload.photo.src);
