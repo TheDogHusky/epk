@@ -6,7 +6,7 @@
             :options="{
                 autoplay: true
             }"
-            style="position: fixed;"
+            style="position: fixed;z-index:1000;"
         />
         <Header />
         <slot />
