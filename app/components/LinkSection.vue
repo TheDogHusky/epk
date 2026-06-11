@@ -1,5 +1,6 @@
 <script setup lang="ts">
-const { $t } = useI18n();
+const { $t, getLocale } = useI18n();
+const locale = computed(() => getLocale());
 </script>
 
 <template>
@@ -7,7 +8,11 @@ const { $t } = useI18n();
         <h2>{{ $t("sections.links.title") }}</h2>
         <ul class="links">
             <li>
-                <a class="link" target="_blank" rel="external" href="/files/technical-sheet.pdf">
+                <a v-if="locale === 'en'" class="link" target="_blank" rel="external" href="/files/technical-rider-en.pdf">
+                    <Icon name="i-lucide-file-down" />
+                    {{ $t("sections.links.sheet") }}
+                </a>
+                <a v-else class="link" target="_blank" rel="external" href="/files/technical-rider-fr.pdf">
                     <Icon name="i-lucide-file-down" />
                     {{ $t("sections.links.sheet") }}
                 </a>

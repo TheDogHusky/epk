@@ -3,6 +3,13 @@
         "name": "Adam Billard's EPK",
         "description": "Adam Billard est un jeune musicien qui a débuté sa carrière à ses 14 ans en écrivant sa chanson \"I Don't Wanna Suffer Again\" après une histoire d'amour avec une de ses meilleures amies. Il a ensuite continué à apprendre la guitare et écrire des chansons pour partager au monde ses pensées et comment il aime la musique."
     },
+    "error": {
+        "notFound": "Page non trouvée",
+        "unexpected": "Une erreur inattendue s'est produite",
+        "notFoundMessage": "La page que vous recherchez n'existe pas.",
+        "unexpectedMessage": "Une erreur inattendue s'est produite lors du chargement de la page. Veuillez réessayer plus tard.",
+        "goHome": "Retour à l'accueil"
+    },
     "job": "Auteur-compositeur-interprète",
     "copyright": "© {date} Adam Billard. Tous droits réservés.",
     "sections": {
